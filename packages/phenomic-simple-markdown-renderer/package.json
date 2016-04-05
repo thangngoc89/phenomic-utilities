@@ -1,6 +1,6 @@
 {
   "name": "phenomic-simple-markdown-renderer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple markdown renderer with remark (no plugin included)",
   "main": "lib/index.js",
   "es:next": "src/index.js",
