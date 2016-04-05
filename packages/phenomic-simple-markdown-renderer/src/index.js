@@ -6,7 +6,9 @@ const defaultOptions = {
 }
 
 export default (text, options = defaultOptions) => (
-  remark
-    .use(html, { entities: "escape" })
-    .process(text, defaultOptions)
+  (text) => (
+    remark
+      .use(html, { entities: "escape" })
+      .process(text, defaultOptions)
+  )
 )
