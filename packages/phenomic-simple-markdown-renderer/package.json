@@ -1,0 +1,21 @@
+{
+  "name": "phenomic-simple-markdown-renderer",
+  "version": "1.0.0",
+  "description": "Simple markdown renderer with remark (no plugin included)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phenomic",
+    "statinamic",
+    "markdown",
+    "remark"
+  ],
+  "author": "Khoa Nguyen @thangngoc89 <hi@khoanguyen.me>",
+  "license": "MIT",
+  "dependencies": {
+    "remark": "^4.2.0",
+    "remark-html": "^3.0.0"
+  }
+}
